@@ -203,7 +203,7 @@
         android:layout_height="0dp"
         android:text="0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/vertical75"
+        app:layout_constraintEnd_toStartOf="@id/vertical25"
         app:layout_constraintTop_toTopOf="@id/horizontal80"
         app:layout_constraintBottom_toTopOf="@id/horizontal100"
         style="@style/botonrecto"/>
@@ -216,7 +216,40 @@
         app:layout_constraintStart_toStartOf="@id/vertical75"
         app:layout_constraintEnd_toStartOf="@id/vertical100"
         app:layout_constraintTop_toTopOf="@id/horizontal20"
-        app:layout_constraintBottom_toTopOf="@id/horizontal50"
+        app:layout_constraintBottom_toTopOf="@id/horizontal40"
+        style="@style/botonrecto"/>
+
+    <Button
+        android:id="@+id/botonRestar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="-"
+        app:layout_constraintStart_toStartOf="@id/vertical75"
+        app:layout_constraintEnd_toStartOf="@id/vertical100"
+        app:layout_constraintTop_toTopOf="@id/horizontal40"
+        app:layout_constraintBottom_toTopOf="@id/horizontal60"
+        style="@style/botonrecto"/>
+
+    <Button
+        android:id="@+id/botonMultiplicar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="*"
+        app:layout_constraintStart_toStartOf="@id/vertical75"
+        app:layout_constraintEnd_toStartOf="@id/vertical100"
+        app:layout_constraintTop_toTopOf="@id/horizontal60"
+        app:layout_constraintBottom_toTopOf="@id/horizontal80"
+        style="@style/botonrecto"/>
+
+    <Button
+        android:id="@+id/botonDividir"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="/"
+        app:layout_constraintStart_toStartOf="@id/vertical75"
+        app:layout_constraintEnd_toStartOf="@id/vertical100"
+        app:layout_constraintTop_toTopOf="@id/horizontal80"
+        app:layout_constraintBottom_toTopOf="@id/horizontal100"
         style="@style/botonrecto"/>
 
     <Button
@@ -224,10 +257,10 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="="
-        app:layout_constraintStart_toStartOf="@id/vertical75"
-        app:layout_constraintEnd_toStartOf="@id/vertical100"
-        app:layout_constraintTop_toTopOf="@id/horizontal50"
-        app:layout_constraintBottom_toTopOf="@id/horizontal80"
+        app:layout_constraintStart_toStartOf="@id/vertical50"
+        app:layout_constraintEnd_toStartOf="@id/vertical75"
+        app:layout_constraintTop_toTopOf="@id/horizontal80"
+        app:layout_constraintBottom_toTopOf="@id/horizontal100"
         style="@style/botonrecto"/>
 
     <Button
@@ -235,8 +268,8 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="C"
-        app:layout_constraintStart_toStartOf="@id/vertical75"
-        app:layout_constraintEnd_toStartOf="@id/vertical100"
+        app:layout_constraintStart_toStartOf="@id/vertical25"
+        app:layout_constraintEnd_toStartOf="@id/vertical50"
         app:layout_constraintTop_toTopOf="@id/horizontal80"
         app:layout_constraintBottom_toTopOf="@id/horizontal100"
         style="@style/botonrecto"/>

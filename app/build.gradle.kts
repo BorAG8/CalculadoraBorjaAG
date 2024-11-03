@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("org.jetbrains.dokka") version "1.9.20"
 }
 
 android {
@@ -30,12 +31,17 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+
     kotlinOptions {
         jvmTarget = "1.8"
     }
 }
 
 dependencies {
+
+    testImplementation(libs.kotlin.test)
+    testImplementation(libs.junit)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
